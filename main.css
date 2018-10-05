@@ -1,0 +1,168 @@
+input{
+    background: rgb(75, 75, 75);
+    border: none;
+    width:200px;
+    height:24px;
+    border-radius: 2px;
+    color: white;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    padding: 5px;
+    font-size: 10px;
+    color:   rgb(167, 167, 167);
+}
+header svg{
+    justify-content: space-around;
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background:rgb(41, 41, 41);
+    color:white;
+    position: relative;
+}
+header>div{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+header>div:nth-child(1){
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+header ul li a{
+    font-size: 15px; /*height of font */
+    font-weight: 30px;
+    color:white;
+    text-decoration: none;
+}
+header>div:nth-child(2){
+    height: 100%;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.row{
+    width: 100%;
+    height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.row>div{
+    height: 100%;
+    width: 200px;
+    margin: 10px;
+}
+.row>div:nth-child(2){
+    flex:2;
+    /* background: wheat; */
+}
+
+img{
+    padding: 10px 0px;
+    width: 200px;
+    flex-direction: flex-start;
+}
+h1{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 5px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding-bottom: 20px;
+}
+.row>div p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+button{
+    padding: 5px 50px; 
+    border-radius: 5px;
+    font-weight: 600;
+    background:rgb(231, 231, 231);
+    margin: 10px
+}
+.row>div>p a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.innerHeader{
+    width:86%;
+    height: 50px;
+    display: flex;
+    border-bottom: solid 1px #d1d5da;
+    color: grey;
+}
+.innerHeader>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.innerHeader li{
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+}
+.innerHeader li a{
+    font-size: 12px; /*height of font */
+    color:#6d7074;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.cateHeader{
+    margin-top: 20px;
+    font-size: 12px; /*height of font */
+    color:#363638;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.pinnedBox{
+    margin: 20px 0px; 
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pinnedBox div{
+    width: 300px;
+    height: 100px;
+    border: solid 1px #d1d5da;
+    align-content: space-evenly;
+    margin-right: 50px;
+}
+.contributions {
+    width: 86%;
+    height: 150px;
+    border: solid 1px #d1d5da;
+    padding: 5px;
+}
+.contributions>svg{
+    width: 98%;
+    height: 80%;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.contributions>a{
+    color: rgb(78, 78, 255);
+    text-decoration: none;
+    font-size: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    
+}
